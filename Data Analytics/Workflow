@@ -1,0 +1,46 @@
+# Motivation
+- Problem Statement
+- Key Objectives
+- Features of Interest
+- What would be a good outcome?
+# Method
+Key Resources
+
+
+What are the steps to solve the problem
+1. Define
+
+2. Importing
+Key activities
+- Import the data
+- Describe the Data
+- Describe the columns
+- Describe the distribution
+- Uniform | Normal | Exponential
+
+
+
+3. Massaging
+Key activities
+- Remove NAS
+- Replace Special Characters
+- Rename columns
+
+
+4. Descriptive
+## Numerical variables
+ Proof of Normality:
+- Inspect Histogram and normal quantile plot
+- Inspect Values of Skewness & Kurtosis
+
+## Categorical variables
+- Frequency Count
+- Test for association
+
+
+5. Predictive
+
+Sampling
+- Simple Random Sample (SRS)
+- Systematic Sampling (follows pattern like every 10th item)
+- Stratified Sampling (divide into characteristics like male or female)
