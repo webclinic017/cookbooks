@@ -1,37 +1,58 @@
 # Motivation
-- Problem Statement
-- Key Objectives
-- Features of Interest
-- What would be a good outcome?
-# Method
-Key Resources
 
+Ultimate Objective - Why?
+
+* Problem Statement
+
+  The (target audience) face the following (problem/challenge), which is best solved with _ **(solution) having an impact and/or making profits via** ___ **. The unique advantages/differentiators of the MVP are** ____ **, when comparing with the following key competitors / alternatives:** ___
+
+* State Hypothesis
+- Main Objectives?
+- Features of Interest?
+- What would be a good outcome?
+
+# Method
+
+Strategic Objectives - What & How?
+
+* What key ressources do we acquire?
+  * Data
+    * Description
+    * Sample size
 
 What are the steps to solve the problem
-1. Define
+1. Collecting
 
 2. Importing
-Key activities
 - Import the data
 - Describe the Data
 - Describe the columns
-- Describe the distribution
-- Uniform | Normal | Exponential
-
-
 
 3. Massaging
-Key activities
 - Remove NAS
 - Replace Special Characters
 - Rename columns
-
+- Create Dummy Variables
 
 4. Descriptive
-## Numerical variables
+## Summary Statistics
+
+## Checklist Numerical variables
  Proof of Normality:
 - Inspect Histogram and normal quantile plot
+- Describe the distribution
+- Uniform | Normal | Exponential
 - Inspect Values of Skewness & Kurtosis
+
+## Checklist Categorical variables
+- Association between categories
+
+## Plots
+* Distribution
+  * Stats
+  * Boxplot
+  * Outlier
+
 
 ## Categorical variables
 - Frequency Count
@@ -43,4 +64,11 @@ Key activities
 Sampling
 - Simple Random Sample (SRS)
 - Systematic Sampling (follows pattern like every 10th item)
-- Stratified Sampling (divide into characteristics like male or female)
+- Stratified Random Sampling (divide into characteristics like male or female)
+- Cluster Sampling
+
+# Mechanics
+
+# Message
+  * Key Findings
+  * Next steps

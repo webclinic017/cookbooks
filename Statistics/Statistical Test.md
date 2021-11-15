@@ -68,4 +68,4 @@ Checklist
 * [ ] Simple Random Sample from the relevant population
 * [ ] Sample Size Condition
   - [ ] n > 10*K3^2
-  - [ ] n> 10*|K4|
+  - [ ] n > 10*|K4|

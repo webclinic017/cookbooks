@@ -10,6 +10,7 @@ Control Limits
 ## Best Practices
 - Think hard about which attribute of the process to monitor
 - Use both X-bar charts and S-Charts to monitor process
+- Set Control limits from process characteristics, before looking at the data
 
 ----------- Upper Control Limit
 -----------

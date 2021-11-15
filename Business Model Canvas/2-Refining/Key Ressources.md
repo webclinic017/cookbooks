@@ -1,0 +1,1 @@
+Money, Skills, Equipment, Facilities
