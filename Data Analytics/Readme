@@ -13,6 +13,8 @@ Ultimate Objective - Why?
 
 # Method
 
+
+
 Strategic Objectives - What & How?
 
 * What key ressources do we acquire?
@@ -28,14 +30,21 @@ What are the steps to solve the problem
 - Describe the Data
 - Describe the columns
 
-3. Massaging
+3. Massaging - Tidy the data
 - Remove NAS
 - Replace Special Characters
 - Rename columns
 - Create Dummy Variables
 
+Goal:
+- Each variable in its own columns
+- Each observation in its own row
+
 4. Descriptive
 ## Summary Statistics
+
+Cheatsheet:
+- Dplyr
 
 ## Checklist Numerical variables
  Proof of Normality:
