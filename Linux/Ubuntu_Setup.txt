@@ -1,0 +1,60 @@
+
+Basic Setup
+
+- Ubuntu Server flashen
+- SSH auf Raspberry
+- Login with standard pw: ubuntu | ubuntu
+- Change PW
+- enable firewall (Firewall blocking everything besides SSH)
+sudo ufw allow OpenSSH
+sudo ufw enable
+- Upgrade System
+sudo apt update
+- Upgrade System
+- sudo apt upgrade
+
+
+Docker Setup
+- Install Docker Engine
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+Create Volume for Portainer
+docker volume create portainer_data
+
+docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+
+
+
+DuckDNS Setup
+
+
+
+Wireguard Setup
+
+IP Weiterleitung Kernel
+open /etc/sysctl.conf und #net.ipv4_forward = 1 ausklammern
+
+
+
+
+RAID-Setup
+
+Nextcloud Setup 
+Copy into Container:
+sudo docker cp file.doc container_id_or_name:/path/to/data
+Scan for new files:
+sudo docker exec -ti --user www-data nextcloud_app /var/www/html/occ files:scan --path $user
+
+
+Data Recovery RAID
+
+mdadm --examine /dev/sd1
+mdadm --stop /dev/sd1
+mdadm --assemble --run /dev/md0 -fw
+
+
+
+
+
+
